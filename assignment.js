@@ -13,6 +13,20 @@ function woodCalculator(chair, table, khat){
 }
 
 
+function brickCalculator(floor){
+    if(floor>=1 && floor <=10)
+        console.log(floor * 15 * 1000);
+
+    else if(floor>=11 && floor <=20)
+        console.log(150000 + (floor-10) * 12 * 1000);
+
+    else 
+    console.log(150000 + 120000 + (floor-20) * 10 * 1000);
+
+    return result;
+}
+
+
 function tinyFriend(name) {
     var smallerName = name[0];
     for (var i = 0; i < name.length; i++) {
