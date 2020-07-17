@@ -1,16 +1,16 @@
-// function feetToMile(feet){
-//     var mile = feet/5280;
-//     return mile;
-// }
+function feetToMile(feet){
+    var mile = feet/5280;
+    return mile;
+}
 
 
-// function woodCalculator(chair, table, khat){
-//     var chairCubicFeet = chair * 1;
-//     var tableCubicFeet = table * 3;
-//     var khatCubicFeet =khat * 5;
-//     var totalCubicFeet = chairCubicFeet + tableCubicFeet + khatCubicFeet;
-//     return totalCubicFeet;
-// }
+function woodCalculator(chair, table, khat){
+    var chairCubicFeet = chair * 1;
+    var tableCubicFeet = table * 3;
+    var khatCubicFeet =khat * 5;
+    var totalCubicFeet = chairCubicFeet + tableCubicFeet + khatCubicFeet;
+    return totalCubicFeet;
+}
 
 
 function tinyFriend(name) {
